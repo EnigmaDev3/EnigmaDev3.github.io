@@ -68,7 +68,7 @@ p {
     font-size: 20px;
     margin-bottom: 30px;
     font-style: italic; /* Задаем курсивный стиль */
-    font-family: Georgia, serif;
+    font-family: "Poppins";
     line-height: 1.5; /* Задаем межстрочный интервал */
     /* Add this to your CSS file (style.css) */
     display: none;
