@@ -37,6 +37,7 @@ nav ul li a {
     position: relative;
     font-weight: bold;
 }
+/* Стили для ссылок в меню при наведении */
 
 nav ul li a:hover { 
     color: #2F69C1;
@@ -69,6 +70,10 @@ p {
     font-style: italic; /* Задаем курсивный стиль */
     font-family: Georgia, serif;
     line-height: 1.5; /* Задаем межстрочный интервал */
+    /* Add this to your CSS file (style.css) */
+    display: none;
+
+
 }
 
 
