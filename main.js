@@ -19,7 +19,7 @@ function showMoreInfo() {
 // Создаем объект Typed для анимации текста в элементе с классом 'text'
 
     var typed = new Typed(".text", {
-        strings: ["Anastasia"],
+        strings: ["it is Anastasia. " ],
         typeSpeed: 100,  // Скорость печати текста
         backSpeed: 100,  // Скорость удаления текста (если есть)
         backDelay: 1000, // Задержка перед началом удаления текста
