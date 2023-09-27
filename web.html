@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Подключение скрипта Typed.js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+     <!-- Подключение стилей для иконок из библиотеки boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>web page</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">EnigmaDev</a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h1>Hello, it is <span class="text"></span></h1>
+            <p>"I am a fourth-year student at South Ural State University. I am a novice web developer."</p>
+            <a href="#" class="btn-box" onclick="showMoreInfo()">more about me</a>
+
+              
+            <!-- Скрытая информация, которая появляется при нажатии на кнопку -->
+            <p id="more-info">  Here, I would like to tell you more about myself. I  lives in the harsh city of Chelyabinsk. 
+                Currently, I am working on my diploma, and the topic is related to both math and chemistry. Additionally, 
+                I am making an effort to learn more about programming because next year I will be looking for a job.
+        
+                One of my hobbies is reading books about self-development, psychology, art, and learning English. 
+                Although I haven't completed many projects, I have tried using Bitrix24 and have created a website using CSS and HTML.
+                 You can see my personal website here.</p>
+        </div>
+        <div class="images">
+            <img src="one.png" alt="" srcset="">
+            <img src="two.png" alt="">
+        </div>
+    </section>
+
+
+    <section class="detel">
+    <h1 class="me">My contacts</h1>
+
+    <div id="contact">
+    <a href="#"><i class='bx bxl-whatsapp'></i></a>
+    <a href="#"><i class='bx bxl-vk' ></i></a>
+    <a href="#"><i class='bx bxl-github' ></i></a> 
+    </div>  
+    </section>   
+    <script src="main.js"></script>
+</body>
+</html>
