@@ -75,12 +75,15 @@ p {
 
 
 .images {
+
     margin-top: 30px;
+   
 }
 
 .images img {
     max-width: 100%;
     height: auto;
+    margin-right: 40px;
 }
 
 .btn-box {
@@ -96,6 +99,8 @@ p {
 .btn-box:hover {
     background-color: #061a35;
 }
+
+
 
 
 
