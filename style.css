@@ -5,7 +5,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #020417;
 }
-
+/* Header Styles */
 .header {
     display: flex;
     justify-content: space-between;
@@ -19,6 +19,7 @@ body {
     height: auto;
 }
 
+/* Navigation Styles */
 nav ul li {
     list-style: none;
     display: inline-block;
@@ -39,7 +40,7 @@ nav ul li a:hover {
 }
 
 
-
+/* Home Section Styles */
 .home {
     display: flex;
     justify-content: space-between;
@@ -72,12 +73,9 @@ p {
 
 }
 
-
-
+/* Images Styles */
 .images {
-
-    margin-top: 30px;
-   
+    margin-top: 30px;  
 }
 
 .images img {
@@ -86,6 +84,8 @@ p {
     margin-right: 25px;
 }
 
+
+/* Button Styles */
 .btn-box {
     display: inline-block;
     padding: 15px 30px;
@@ -102,8 +102,7 @@ p {
 
 
 
-
-
+/* Contact Section Styles */
 .contact-section {
     display: flex;
     flex-direction: column;
@@ -116,7 +115,6 @@ p {
     margin-bottom: 10px;
     font-family: "Poppins"
 }
-
 
 #section-title a {
     font-size: 50px;
